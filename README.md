@@ -1,1 +1,0 @@
-# MA-CYBER-GP
