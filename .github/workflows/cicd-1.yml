@@ -19,9 +19,3 @@ jobs:
         uses: Cyb3r-Jak3/html5validator-action@v7.2.0
         with:
           root: ./DEVOPS/
-
-      - name: Déploiement vers GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{secrets.GITHUB_YOKEN}}
-          publish_dir: .
